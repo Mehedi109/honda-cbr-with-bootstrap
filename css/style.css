@@ -1,7 +1,7 @@
 body{
     margin: 0 auto;
 }
-/*---------------------- header section ---------------------*/
+/*------------------------- header section ------------------------*/
 header{
     background-color: #264653;
     color: white;
@@ -17,6 +17,11 @@ header p{
 }
 /*------------------------- featured section ----------------------*/
 .single-image img{
+    width: 288px;
+    height: 243px;
+    padding: 20px 25px;
+}
+.single-image-grayscale img{
     width: 288px;
     height: 243px;
     filter:grayscale(100%);
@@ -38,6 +43,21 @@ header p{
     color: #1E1E1E;
     font-weight: 600;
 }
-.client span{
+span{
     color: #E77C40;
+}
+/*------------------------- why honda cbr ---------------------------*/
+.why-honda-cbr{
+    color: #202528;
+}
+.shoping-icon{
+    background-color: #2579C0;
+    height: 200px;
+}
+.shoping-content{
+    height: 150px;
+}
+.shoping-icon i{
+    font-size: 80px;
+    color: white;
 }
